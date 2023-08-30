@@ -8,5 +8,5 @@ function reset() {
 icecream.addEventListener('click', reset)
 
 btn.addEventListener('click', () => {
-  icecream.insertAdjacentHTML('afterbegin', '🥗')
+  icecream.insertAdjacentHTML('beforeend', '🥗')
 })
