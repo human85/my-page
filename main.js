@@ -1,4 +1,6 @@
 const btn = document.querySelector('button')
+const icecream = document.querySelector('.icecream')
+
 btn.addEventListener('click', () => {
-  prompt('What is your name?')
+  icecream.insertAdjacentHTML('afterend', '🥗')
 })
